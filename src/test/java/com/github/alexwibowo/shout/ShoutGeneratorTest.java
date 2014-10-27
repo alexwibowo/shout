@@ -13,9 +13,7 @@ public class ShoutGeneratorTest {
 
     @Test
     public void testPlain() {
-        System.out.println("===================");
-        System.out.println(shout("Hi there"));
-        System.out.println("===================");
+        System.out.println(shout("EXPLODE"));
     }
 
     @Test
@@ -28,7 +26,7 @@ public class ShoutGeneratorTest {
     @Test
     public void testBold() {
         System.out.println("===================");
-        System.out.println(shout("Hi there", BOLD, 25));
+        System.out.println(shout("Careful!", BOLD, 15));
         System.out.println("===================");
     }
 }
