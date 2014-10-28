@@ -10,7 +10,7 @@
     <groupId>com.github.alexwibowo</groupId>
     <artifactId>shout</artifactId>
     <packaging>jar</packaging>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     <inceptionYear>2014</inceptionYear>
 
     <developers>
@@ -46,7 +46,8 @@
         <connection>scm:git:git@github.com:alexwibowo/shout.git</connection>
         <developerConnection>scm:git:git@github.com:alexwibowo/shout.git</developerConnection>
         <url>git@github.com:alexwibowo/shout.git</url>
-    </scm>
+      <tag>shout-1.1</tag>
+  </scm>
 
 
     <!-- version control for commonly used libraries -->
